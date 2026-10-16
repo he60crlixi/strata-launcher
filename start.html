@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>Strata</title>
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; height: 100vh; display: flex; align-items: center; justify-content: center;
+    background: #18181b; color: #e4e4e7;
+    font: 15px/1.7 "Microsoft YaHei UI", "Segoe UI", system-ui, sans-serif;
+  }
+  .card { width: min(560px, 88vw); text-align: center; }
+  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: .5px; }
+  .sub { color: #8b8b93; margin-bottom: 26px; }
+  .dot { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #ffaa5a; margin-right: 8px; }
+  .state { display: inline-block; padding: 7px 16px; border: 1px solid #3a3a42; border-radius: 999px; background: #202024; font-size: 13px; }
+  ol { text-align: left; color: #a1a1aa; font-size: 13.5px; padding-left: 20px; margin-top: 26px; }
+  code { background: #26262b; padding: 1px 6px; border-radius: 4px; color: #cfd4dc; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Strata</h1>
+    <div class="sub">本地 AI · 一切都在本机</div>
+    <div class="state"><span class="dot"></span>模型未启动</div>
+    <ol>
+      <li>点上面的 <b>启动模型</b>，加载约 1–3 分钟。</li>
+      <li>加载完成后这里会自动显示 Strata 界面（<code>127.0.0.1:8080</code>）。</li>
+      <li>下面的终端可以直接跑命令，例如 <code>python setup.py --help</code>。</li>
+    </ol>
+  </div>
+</body>
+</html>

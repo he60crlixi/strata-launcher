@@ -1,0 +1,11 @@
+# build output
+*.exe
+*.dll
+*.pdb
+crash.log
+
+# WebView2 user data folder, created at run time
+StrataLauncher.exe.WebView2/
+
+# local machine settings
+launcher.json
